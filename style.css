@@ -5,15 +5,12 @@
 }
 body{
   margin: 0;
-  display: flex;
-  flex-direction: column;
   background-color:black;
   color:seashell;
   font-family: Helvetica;
   font-size:22px;
   opacity:0.9;
   text-align:center;
-  min-height: 100vh;
 }
 nav{
   display: flex;
@@ -39,36 +36,54 @@ nav ul li a{
   color:seashell;
 }
 .mission{
-  margin: 50px;
+  height: 700px;
+  margin-left: 50px;
   margin-right:50px;
   background-color: grey;
   background-image: url("img-mission-background.jpg");
   background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
   padding-top: 200px;
   padding-bottom: 200px;
   background-size: cover;
   display: flex;
   flex-direction: column;
-  align-content: center;
   justify-content: center;
 }
 .titles{
   background-color: black;
+  line-height: 50px;
+  font-size: 1.25em;
+  padding-top: 10px;
 }
 .article-title{
-  width: 100%;
   max-height: 10%;
   display: flex;
   justify-content: center;
   margin: 50px;
 }
+.titles2{
+  line-height: 50px;
+  font-size: 1.25em;
+  padding-top: 10px;
+  margin-bottom: 0;
+}
 .teas{
   display: flex;
-  margin: 50px;
-  flex: wrap;
+  flex-wrap: wrap;
+  width: 75%;
+  justify-content: center;
+  margin: auto;
+  height: auto;
+  max-width: 1000px;
+  margin-bottom: 60px;
+  gap: 30px;
 }
 .tea-img{
-  margin-left: 30px;
+ width: auto;
+ margin-bottom: 20px;
+
 }
 .teas img{
 max-width: 300px;
@@ -79,11 +94,44 @@ margin-bottom: 10px;
 .locations{
   background-image: url("img-locations-background.jpg");
   background-repeat: no-repeat;
-  padding-top: 200px;
-  padding-bottom: 200px;
   background-size: cover;
+  max-height: 500px;
+  width: 95%;
+  margin-right: auto;
+  margin-left: auto;
 }
+
+.location-title{
+  text-align: center;
+  margin-top: 5%;
+  margin-bottom: 0px;
+}
+.cards{
+display: flex;
+justify-content: center;
+}
+
 .location-card{
-  display: flex;
   background-color: black;
+  margin: 40px;
+  opacity: 1;
+  line-height: 2.5em;
+  font-size: 1em;
+  flex-basis: 300px;
+  color: seashell;
+  font-weight: bold;
+}
+.contact{
+  height: 200px;
+  line-height: 55px;
+  margin-bottom: 10px;
+}
+.contact p{
+  font-size: 0.8em;
+}
+#copyright{
+  margin-left: 20px;
+  text-align:left;
+  font-weight: bold;
+  margin-bottom: 40px;
 }
