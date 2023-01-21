@@ -95,22 +95,19 @@ margin-bottom: 10px;
   background-image: url("img-locations-background.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  max-height: 500px;
+  background-position: center;
+  height: 600px;
   width: 95%;
   margin-right: auto;
   margin-left: auto;
-}
-
-.location-title{
-  text-align: center;
-  margin-top: 5%;
-  margin-bottom: 0px;
 }
 .cards{
 display: flex;
 justify-content: center;
 }
-
+.location-title{
+  margin-top: 10px;
+}
 .location-card{
   background-color: black;
   margin: 40px;
